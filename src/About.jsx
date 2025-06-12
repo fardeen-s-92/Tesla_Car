@@ -3,9 +3,14 @@ import "./App.css";
 import img from "./assets/about1.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import VanillaTilt from "vanilla-tilt";
 // ..
 AOS.init({
   offset: 250,
+});
+VanillaTilt.init(document.querySelector(".about_img"), {
+  max: 40,
+  speed: 400,
 });
 
 function About() {
