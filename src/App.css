@@ -197,10 +197,15 @@ ul li a:hover {
   width: 480px;
   height: 320.141px;
   flex-grow: 1;
+  overflow: hidden;
+}
+.about_img:hover img {
+  transform: scale(1.2);
 }
 .about_img img {
   width: 100%;
   height: 100%;
+  transition: all 1.5s;
 }
 .about_contant {
   width: 50%;
@@ -242,7 +247,7 @@ ul li a:hover {
   background-color: #111213;
   border-radius: 20px;
   margin: 2rem 1rem;
-  transition: all 2s Im !important;
+  transition: all 2s !important;
 }
 .margin_bottom {
   margin: 5rem 1rem;

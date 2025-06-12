@@ -3,7 +3,6 @@ import "./App.css";
 import img from "./assets/about1.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
 // ..
 AOS.init({
   offset: 250,

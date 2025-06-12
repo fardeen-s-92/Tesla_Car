@@ -1,5 +1,6 @@
 import "./App.css";
 import AOS from "aos";
+import VanillaTilt from "vanilla-tilt";
 
 AOS.init({
   offset: 200,
